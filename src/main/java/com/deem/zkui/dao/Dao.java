@@ -28,7 +28,7 @@ import org.slf4j.LoggerFactory;
 
 public class Dao {
     
-    private final static Integer FETCH_LIMIT = 50;
+    private final static Long FETCH_LIMIT = 50l;
     private final static org.slf4j.Logger logger = LoggerFactory.getLogger(Dao.class);
     private final Properties globalProps;
     
